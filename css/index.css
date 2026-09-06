@@ -5394,9 +5394,7 @@ footer ul a:hover {
 .text-accent{
   color: var(--gold-dark);
 }
-/* ================================
-   Service Select
-================================ */
+
 
 .input-wrapper select {
     width: 100%;
@@ -5418,12 +5416,10 @@ footer ul a:hover {
 border: 1px solid var(--border);
 }
 
-/* Placeholder */
 .input-wrapper select:invalid {
     color: #999;
 }
 
-/* Options */
 .input-wrapper select option {
     color: #333;
     background: #fff;
@@ -5431,7 +5427,6 @@ border: 1px solid var(--border);
     font-size: 15px;
 }
 
-/* Select Arrow */
 .input-wrapper:has(select)::after {
     content: "\f107";
     font-family: "Font Awesome 6 Free";
@@ -5445,18 +5440,15 @@ border: 1px solid var(--border);
     pointer-events: none;
 }
 
-/* Service Icon */
 .input-wrapper:has(select) > i {
     color: #b8945f;
 }
 
-/* Focus */
 .input-wrapper:has(select:focus) {
     border-color: #b8945f;
     box-shadow: 0 0 0 3px rgba(184, 148, 95, 0.10);
 }
 
-/* Mobile */
 @media (max-width: 576px) {
 
     .input-wrapper select {
@@ -5470,9 +5462,7 @@ border: 1px solid var(--border);
     }
 }
 
-/* =========================================
-   Floating WhatsApp
-========================================= */
+
 
 .floating-whatsapp {
     position: fixed;
@@ -5483,9 +5473,6 @@ border: 1px solid var(--border);
 }
 
 
-/* =========================================
-   Main WhatsApp Button
-========================================= */
 
 .floating-whatsapp-btn {
     position: relative;
@@ -5529,9 +5516,7 @@ border: 1px solid var(--border);
 }
 
 
-/* =========================================
-   Pulse Animation
-========================================= */
+
 
 .whatsapp-pulse {
     position: absolute;
@@ -5569,9 +5554,7 @@ border: 1px solid var(--border);
 }
 
 
-/* =========================================
-   WhatsApp Menu
-========================================= */
+
 
 .whatsapp-menu {
     position: absolute;
@@ -5610,7 +5593,6 @@ border: 1px solid var(--border);
 }
 
 
-/* Open Menu */
 
 .floating-whatsapp.active .whatsapp-menu {
     opacity: 1;
@@ -5621,10 +5603,6 @@ border: 1px solid var(--border);
         scale(1);
 }
 
-
-/* =========================================
-   Menu Header
-========================================= */
 
 .whatsapp-menu-title {
     display: flex;
@@ -5656,9 +5634,6 @@ border: 1px solid var(--border);
 }
 
 
-/* =========================================
-   Service Buttons
-========================================= */
 
 .whatsapp-service {
     width: 100%;
@@ -5704,7 +5679,6 @@ border: 1px solid var(--border);
 }
 
 
-/* Service Icon */
 
 .service-icon {
     width: 38px;
@@ -5732,7 +5706,6 @@ border: 1px solid var(--border);
 }
 
 
-/* Arrow */
 
 .whatsapp-service > .fa-chevron-left {
     margin-right: auto;
@@ -5752,9 +5725,7 @@ border: 1px solid var(--border);
 }
 
 
-/* =========================================
-   Mobile
-========================================= */
+
 
 @media (max-width: 576px) {
 
@@ -5783,9 +5754,6 @@ border: 1px solid var(--border);
 
 }
 
-/* =========================================
-   Floating Email
-========================================= */
 
 .floating-email {
     position: fixed;
@@ -5821,7 +5789,6 @@ border: 1px solid var(--border);
 }
 
 
-/* Hover */
 
 .floating-email:hover {
     color: #fff;
@@ -5837,7 +5804,6 @@ border: 1px solid var(--border);
 }
 
 
-/* Icon */
 
 .floating-email i {
     transition: transform 0.3s ease;
@@ -5849,9 +5815,7 @@ border: 1px solid var(--border);
 }
 
 
-/* =========================================
-   Mobile
-========================================= */
+
 
 @media (max-width: 576px) {
 
@@ -5867,9 +5831,7 @@ border: 1px solid var(--border);
 
 }
 
-/* =========================================
-   Footer Contact
-========================================= */
+
 
 .footer-contact-text {
     margin-bottom: 20px;
@@ -5877,7 +5839,6 @@ border: 1px solid var(--border);
 }
 
 
-/* Contact List */
 
 .footer-contact-list {
     display: flex;
@@ -5886,7 +5847,6 @@ border: 1px solid var(--border);
 }
 
 
-/* Contact Item */
 
 .footer-contact-item {
     display: flex;
@@ -5914,7 +5874,6 @@ border: 1px solid var(--border);
 }
 
 
-/* Icon */
 
 .footer-contact-icon {
     width: 40px;
@@ -5934,7 +5893,6 @@ border: 1px solid var(--border);
 }
 
 
-/* WhatsApp */
 
 .footer-contact-icon.whatsapp {
     background: rgba(37, 211, 102, 0.12);
@@ -5942,7 +5900,6 @@ border: 1px solid var(--border);
 }
 
 
-/* Email */
 
 .footer-contact-icon.email {
     background: rgba(184, 148, 95, 0.12);
@@ -5950,7 +5907,6 @@ border: 1px solid var(--border);
 }
 
 
-/* Hover Icon */
 
 .footer-contact-item:hover
 .footer-contact-icon {
@@ -5959,7 +5915,6 @@ border: 1px solid var(--border);
 }
 
 
-/* Contact Info */
 
 .footer-contact-info {
     display: flex;
@@ -5990,7 +5945,6 @@ border: 1px solid var(--border);
 }
 
 
-/* Arrow */
 
 .footer-contact-arrow {
     margin-right: auto;
@@ -6011,9 +5965,7 @@ border: 1px solid var(--border);
 }
 
 
-/* =========================================
-   Mobile
-========================================= */
+
 
 @media (max-width: 576px) {
 
@@ -6034,9 +5986,6 @@ border: 1px solid var(--border);
 
 }
 
-/* =========================================
-   Back To Top
-========================================= */
 
 .back-to-top {
     position: fixed;
@@ -6079,7 +6028,6 @@ border: 1px solid var(--border);
 }
 
 
-/* Show */
 
 .back-to-top.show {
     opacity: 1;
@@ -6089,7 +6037,6 @@ border: 1px solid var(--border);
 }
 
 
-/* Hover */
 
 .back-to-top:hover {
     background: #a27f4d;
@@ -6102,7 +6049,6 @@ border: 1px solid var(--border);
 }
 
 
-/* Icon */
 
 .back-to-top i {
     transition: transform 0.3s ease;
@@ -6114,9 +6060,7 @@ border: 1px solid var(--border);
 }
 
 
-/* =========================================
-   Mobile
-========================================= */
+
 
 @media (max-width: 576px) {
 

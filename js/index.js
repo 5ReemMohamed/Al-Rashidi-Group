@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-  const navbar = document.querySelector(".velora-navbar");
+  const navbar = document.querySelector(".الراشدي جروب -navbar");
 
   if (navbar) {
 
@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function () {
   );
 
   const navbarCollapse = document.querySelector(
-    "#veloraNavbar"
+    "#الراشدي جروب Navbar"
   );
 
   if (
@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   const offersSlider = document.querySelector(
-    ".veloraOffersSwiper"
+    ".الراشدي جروب OffersSwiper"
   );
 
   if (
@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", function () {
   ) {
 
     new Swiper(
-      ".veloraOffersSwiper",
+      ".الراشدي جروب OffersSwiper",
       {
 
         loop: true,
@@ -250,7 +250,6 @@ if (contactForm) {
       }
 
 
-      // WhatsApp numbers according to service
       const whatsappNumbers = {
 
         "عطور": "966564014040",
@@ -262,12 +261,10 @@ if (contactForm) {
       };
 
 
-      // Get WhatsApp number
       const whatsappNumber =
         whatsappNumbers[service];
 
 
-      // Safety check
       if (!whatsappNumber) {
 
         alert(
@@ -279,9 +276,8 @@ if (contactForm) {
       }
 
 
-      // WhatsApp message
       const whatsappMessage =
-`✨ *رسالة جديدة من موقع الراشدي جروب*
+`✨ * رسالة جديدة من موقع الراشدي جروب *  
 
 ━━━━━━━━━━━━━━━━━━
 
@@ -302,29 +298,25 @@ ${message}
 
 ━━━━━━━━━━━━━━━━━━
 
-تم إرسال الرسالة من موقع Velora`;
+تم إرسال الرسالة من موقع الراشدي جروب `;
 
 
-      // Encode message
       const encodedMessage =
         encodeURIComponent(
           whatsappMessage
         );
 
 
-      // WhatsApp URL
       const whatsappURL =
         `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
 
 
-      // Open WhatsApp
       window.open(
         whatsappURL,
         "_blank"
       );
 
 
-      // Reset form after sending
       contactForm.reset();
 
     }
@@ -806,9 +798,7 @@ ${message}
     );
 
   }
-/* =========================================
-   Floating WhatsApp
-========================================= */
+
 
 const floatingWhatsapp =
   document.querySelector(".floating-whatsapp");
@@ -828,8 +818,6 @@ if (
   floatingWhatsappBtn
 ) {
 
-  /* Open / Close Menu */
-
   floatingWhatsappBtn.addEventListener(
     "click",
     function (e) {
@@ -844,7 +832,6 @@ if (
   );
 
 
-  /* Service Numbers */
 
   const serviceNumbers = {
 
@@ -857,7 +844,6 @@ if (
   };
 
 
-  /* Service Click */
 
   whatsappServices.forEach(
     function (button) {
@@ -883,7 +869,7 @@ if (
 
 أرغب في التواصل مع قسم ${service}.
 
-تم التواصل من خلال موقع Velora.`;
+تم التواصل من خلال موقع الراشدي جروب .`;
 
 
           const encodedMessage =
@@ -902,7 +888,6 @@ if (
           );
 
 
-          /* Close Menu */
 
           floatingWhatsapp.classList.remove(
             "active"
@@ -915,7 +900,6 @@ if (
   );
 
 
-  /* Close when clicking outside */
 
   document.addEventListener(
     "click",
@@ -935,9 +919,7 @@ if (
   );
 
 }
-/* =========================================
-   Back To Top
-========================================= */
+
 
 const backToTop =
   document.getElementById("backToTop");
@@ -945,7 +927,6 @@ const backToTop =
 
 if (backToTop) {
 
-  // Show button after scrolling
   window.addEventListener(
     "scroll",
     function () {
@@ -964,7 +945,6 @@ if (backToTop) {
   );
 
 
-  // Scroll to top
   backToTop.addEventListener(
     "click",
     function () {
